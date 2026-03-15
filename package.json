@@ -1,8 +1,8 @@
 {
   "name": "rotateai",
-  "version": "0.6.0",
+  "version": "1.0.0",
   "private": true,
-  "description": "AI-powered restaurant inventory management SaaS — reduce waste, detect shrinkage, optimize ordering",
+  "description": "AI-powered restaurant inventory management SaaS",
   "author": "Phil Siefke <phil@philsiefke.com>",
   "license": "MIT",
   "dependencies": {
@@ -12,7 +12,8 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.0",
-    "vite": "^5.0.0"
+    "vite": "^5.0.0",
+    "vite-plugin-pwa": "^0.19.0"
   },
   "scripts": {
     "dev": "vite",
